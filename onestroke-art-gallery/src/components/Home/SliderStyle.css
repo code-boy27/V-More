@@ -1,0 +1,12 @@
+.carousel-control-prev-icon{
+    background-image: url('../../assets/img/SliderImg/Prev.png');
+    height: 30px !important;
+    width: 30px !important;
+    filter: drop-shadow(-1px 21px 20px #F9E79F );
+ }
+ .carousel-control-next-icon{
+    background-image: url('../../assets/img/SliderImg/next.png');
+    height: 30px !important;
+    width: 30px !important;
+    filter: drop-shadow(-1px 21px 20px #F9E79F );
+ }

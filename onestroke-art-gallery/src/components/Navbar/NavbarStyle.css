@@ -1,0 +1,35 @@
+/* Style the links inside the navigation bar */
+
+.navbar-light .navbar-nav .nav-link {
+  color: black; 
+  
+}
+.nav a {
+  float: right;
+  display: block;
+  color: black;
+  font-weight: normal;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Change the color of links on hover */
+
+.nav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background:#cebf0a;
+  transition: width .3s;
+ 
+}
+.nav a:hover::after {
+  width: 100%;  
+}
+ 
+ 
